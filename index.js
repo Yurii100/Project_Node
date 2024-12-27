@@ -8,7 +8,7 @@ const port = process.env.PORT;
 
 const folderPath = path.join(__dirname, "info");
 const filePath = path.join(__dirname, "info", "temp-file.txt");
-const indexPath = path.join(__dirname, "Project_Node", "index.html"); 
+const indexPath = path.join(__dirname, "index.html"); 
 
 http.createServer((request, response) => {
     if (request.url === "/write") {
